@@ -17,6 +17,8 @@ public class Exercise_04 {
 
         // write your code below
 
+        //See PrimVars in labs folder
+
     }
 
 }

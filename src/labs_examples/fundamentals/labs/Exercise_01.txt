@@ -22,3 +22,174 @@ Example Output (pwd):
     1. Cadens-MacBook-Pro:CodingNomads cadenmackenzie$ pwd
        /Users/cadenmackenzie/Documents/CodingNomads
 
+
+    1. C:\Users\Mark XPS15\Documents\CodingNomads\labs\online-java-fundamentals(master -> mark)
+       λ pwd
+
+    2. C:\Users\Mark XPS15\Documents\CodingNomads\labs\online-java-fundamentals(master -> mark)
+       λ mkdir Terminal_testing
+
+    3. C:\Users\Mark XPS15\Documents\CodingNomads\labs\online-java-fundamentals\Terminal_testing(master -> mark)
+       λ touch first.txt second.txt third.txt
+
+       C:\Users\Mark XPS15\Documents\CodingNomads\labs\online-java-fundamentals\Terminal_testing(master -> mark)
+       λ pwd
+       C:\Users\Mark XPS15\Documents\CodingNomads\labs\online-java-fundamentals\Terminal_testing
+
+       C:\Users\Mark XPS15\Documents\CodingNomads\labs\online-java-fundamentals\Terminal_testing(master -> mark)
+       λ ls -al
+       total 4
+       drwxr-xr-x 1 Mark XPS15 197121 0 Apr 19 18:20 ./
+       drwxr-xr-x 1 Mark XPS15 197121 0 Apr 19 18:19 ../
+       -rw-r--r-- 1 Mark XPS15 197121 0 Apr 19 18:20 first.txt
+       -rw-r--r-- 1 Mark XPS15 197121 0 Apr 19 18:20 second.txt
+       -rw-r--r-- 1 Mark XPS15 197121 0 Apr 19 18:20 third.txt
+    5. C:\Users\Mark XPS15\Documents\CodingNomads\labs\online-java-fundamentals\Terminal_testing(master -> mark)
+       λ mkdir New_folder
+
+       C:\Users\Mark XPS15\Documents\CodingNomads\labs\online-java-fundamentals\Terminal_testing(master -> mark)
+       λ ls -al
+       total 4
+       drwxr-xr-x 1 Mark XPS15 197121 0 Apr 19 18:23 ./
+       drwxr-xr-x 1 Mark XPS15 197121 0 Apr 19 18:19 ../
+       -rw-r--r-- 1 Mark XPS15 197121 0 Apr 19 18:20 first.txt
+       drwxr-xr-x 1 Mark XPS15 197121 0 Apr 19 18:23 New_folder/
+       -rw-r--r-- 1 Mark XPS15 197121 0 Apr 19 18:20 second.txt
+       -rw-r--r-- 1 Mark XPS15 197121 0 Apr 19 18:20 third.txt
+
+    6.   C:\Users\Mark XPS15\Documents\CodingNomads\labs\online-java-fundamentals\Terminal_testing(master -> mark)
+       λ cp first.txt New_folder\
+
+       C:\Users\Mark XPS15\Documents\CodingNomads\labs\online-java-fundamentals\Terminal_testing(master -> mark)
+       λ ls -al
+       total 4
+       drwxr-xr-x 1 Mark XPS15 197121 0 Apr 19 18:23 ./
+       drwxr-xr-x 1 Mark XPS15 197121 0 Apr 19 18:19 ../
+       -rw-r--r-- 1 Mark XPS15 197121 0 Apr 19 18:20 first.txt
+       drwxr-xr-x 1 Mark XPS15 197121 0 Apr 19 18:23 New_folder/
+       -rw-r--r-- 1 Mark XPS15 197121 0 Apr 19 18:20 second.txt
+       -rw-r--r-- 1 Mark XPS15 197121 0 Apr 19 18:20 third.txt
+
+       C:\Users\Mark XPS15\Documents\CodingNomads\labs\online-java-fundamentals\Terminal_testing(master -> mark)
+       λ cd New_folder\
+
+       C:\Users\Mark XPS15\Documents\CodingNomads\labs\online-java-fundamentals\Terminal_testing\New_folder(master -> mark)
+       λ ls -al
+       total 0
+       drwxr-xr-x 1 Mark XPS15 197121 0 Apr 19 18:23 ./
+       drwxr-xr-x 1 Mark XPS15 197121 0 Apr 19 18:23 ../
+       -rw-r--r-- 1 Mark XPS15 197121 0 Apr 19 18:24 first.txt
+
+       C:\Users\Mark XPS15\Documents\CodingNomads\labs\online-java-fundamentals\Terminal_testing\New_folder(master -> mark)
+       λ cd ../
+
+       C:\Users\Mark XPS15\Documents\CodingNomads\labs\online-java-fundamentals\Terminal_testing(master -> mark)
+       λ ls -al
+       total 4
+       drwxr-xr-x 1 Mark XPS15 197121 0 Apr 19 18:23 ./
+       drwxr-xr-x 1 Mark XPS15 197121 0 Apr 19 18:19 ../
+       -rw-r--r-- 1 Mark XPS15 197121 0 Apr 19 18:20 first.txt
+       drwxr-xr-x 1 Mark XPS15 197121 0 Apr 19 18:23 New_folder/
+       -rw-r--r-- 1 Mark XPS15 197121 0 Apr 19 18:20 second.txt
+       -rw-r--r-- 1 Mark XPS15 197121 0 Apr 19 18:20 third.txt
+
+    7. C:\Users\Mark XPS15\Documents\CodingNomads\labs\online-java-fundamentals\Terminal_testing(master -> mark)
+       λ mv second.txt New_folder\
+
+       C:\Users\Mark XPS15\Documents\CodingNomads\labs\online-java-fundamentals\Terminal_testing(master -> mark)
+       λ ls -al
+       total 4
+       drwxr-xr-x 1 Mark XPS15 197121 0 Apr 19 18:25 ./
+       drwxr-xr-x 1 Mark XPS15 197121 0 Apr 19 18:19 ../
+       -rw-r--r-- 1 Mark XPS15 197121 0 Apr 19 18:20 first.txt
+       drwxr-xr-x 1 Mark XPS15 197121 0 Apr 19 18:25 New_folder/
+       -rw-r--r-- 1 Mark XPS15 197121 0 Apr 19 18:20 third.txt
+
+       C:\Users\Mark XPS15\Documents\CodingNomads\labs\online-java-fundamentals\Terminal_testing(master -> mark)
+       λ cd New_folder\
+
+       C:\Users\Mark XPS15\Documents\CodingNomads\labs\online-java-fundamentals\Terminal_testing\New_folder(master -> mark)
+       λ ls -al
+       total 0
+       drwxr-xr-x 1 Mark XPS15 197121 0 Apr 19 18:25 ./
+       drwxr-xr-x 1 Mark XPS15 197121 0 Apr 19 18:25 ../
+       -rw-r--r-- 1 Mark XPS15 197121 0 Apr 19 18:24 first.txt
+       -rw-r--r-- 1 Mark XPS15 197121 0 Apr 19 18:20 second.txt
+
+    8. C:\Users\Mark XPS15\Documents\CodingNomads\labs\online-java-fundamentals\Terminal_testing\New_folder(master -> mark)
+       λ rm first.txt
+
+       C:\Users\Mark XPS15\Documents\CodingNomads\labs\online-java-fundamentals\Terminal_testing\New_folder(master -> mark)
+       λ cd ../
+
+       C:\Users\Mark XPS15\Documents\CodingNomads\labs\online-java-fundamentals\Terminal_testing(master -> mark)
+       λ pwd
+       C:\Users\Mark XPS15\Documents\CodingNomads\labs\online-java-fundamentals\Terminal_testing
+
+       C:\Users\Mark XPS15\Documents\CodingNomads\labs\online-java-fundamentals\Terminal_testing(master -> mark)
+       λ ls -al
+       total 4
+       drwxr-xr-x 1 Mark XPS15 197121 0 Apr 19 18:25 ./
+       drwxr-xr-x 1 Mark XPS15 197121 0 Apr 19 18:19 ../
+       -rw-r--r-- 1 Mark XPS15 197121 0 Apr 19 18:20 first.txt
+       drwxr-xr-x 1 Mark XPS15 197121 0 Apr 19 18:25 New_folder/
+       -rw-r--r-- 1 Mark XPS15 197121 0 Apr 19 18:20 third.txt
+
+       C:\Users\Mark XPS15\Documents\CodingNomads\labs\online-java-fundamentals\Terminal_testing(master -> mark)
+       λ cd New_folder\
+
+       C:\Users\Mark XPS15\Documents\CodingNomads\labs\online-java-fundamentals\Terminal_testing\New_folder(master -> mark)
+       λ ls -al
+       total 0
+       drwxr-xr-x 1 Mark XPS15 197121 0 Apr 19 18:25 ./
+       drwxr-xr-x 1 Mark XPS15 197121 0 Apr 19 18:25 ../
+       -rw-r--r-- 1 Mark XPS15 197121 0 Apr 19 18:20 second.txt
+
+       C:\Users\Mark XPS15\Documents\CodingNomads\labs\online-java-fundamentals\Terminal_testing\New_folder(master -> mark)
+       λ rm -r
+       rm: missing operand
+       Try 'rm --help' for more information.
+
+       C:\Users\Mark XPS15\Documents\CodingNomads\labs\online-java-fundamentals\Terminal_testing\New_folder(master -> mark)
+       λ rm -r ./*
+
+       C:\Users\Mark XPS15\Documents\CodingNomads\labs\online-java-fundamentals\Terminal_testing\New_folder(master -> mark)
+       λ ls -al
+       total 0
+       drwxr-xr-x 1 Mark XPS15 197121 0 Apr 19 18:27 ./
+       drwxr-xr-x 1 Mark XPS15 197121 0 Apr 19 18:25 ../
+
+       C:\Users\Mark XPS15\Documents\CodingNomads\labs\online-java-fundamentals\Terminal_testing\New_folder(master -> mark)
+       λ cd ../
+
+       C:\Users\Mark XPS15\Documents\CodingNomads\labs\online-java-fundamentals\Terminal_testing(master -> mark)
+       λ ls -al
+       total 4
+       drwxr-xr-x 1 Mark XPS15 197121 0 Apr 19 18:25 ./
+       drwxr-xr-x 1 Mark XPS15 197121 0 Apr 19 18:19 ../
+       -rw-r--r-- 1 Mark XPS15 197121 0 Apr 19 18:20 first.txt
+       drwxr-xr-x 1 Mark XPS15 197121 0 Apr 19 18:27 New_folder/
+       -rw-r--r-- 1 Mark XPS15 197121 0 Apr 19 18:20 third.txt
+
+       C:\Users\Mark XPS15\Documents\CodingNomads\labs\online-java-fundamentals\Terminal_testing(master -> mark)
+       λ rm New_folder\
+       rm: cannot remove 'New_folder\': Is a directory
+
+       C:\Users\Mark XPS15\Documents\CodingNomads\labs\online-java-fundamentals\Terminal_testing(master -> mark)
+       λ rm -r New_folder\
+
+       C:\Users\Mark XPS15\Documents\CodingNomads\labs\online-java-fundamentals\Terminal_testing(master -> mark)
+       λ ls -al
+       total 4
+       drwxr-xr-x 1 Mark XPS15 197121 0 Apr 19 18:29 ./
+       drwxr-xr-x 1 Mark XPS15 197121 0 Apr 19 18:19 ../
+       -rw-r--r-- 1 Mark XPS15 197121 0 Apr 19 18:20 first.txt
+       -rw-r--r-- 1 Mark XPS15 197121 0 Apr 19 18:20 third.txt
+
+    9. C:\Users\Mark XPS15\Documents\CodingNomads\labs\online-java-fundamentals\Terminal_testing(master -> mark)
+       λ cat first.txt
+       This is the text I have written using VIM.
+
+        C:\Users\Mark XPS15\Documents\CodingNomads\labs\online-java-fundamentals\Terminal_testing(master -> mark)
+        λ grep -nr 'written' .
+        ./first.txt:1:This is the text I have written using VIM.
