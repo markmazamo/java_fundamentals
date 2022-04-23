@@ -18,7 +18,7 @@ public class Conversions {
         float notsobig = (float) crazybig;
         System.out.println(notsobig);
 
-        // please demonstrate casting a double with decimal values to an short
+        // please demonstrate casting a double with decimal values to a short
         double superbig = 12345.1234512345;
         short supersmall = (short) superbig;
         System.out.println(supersmall);
