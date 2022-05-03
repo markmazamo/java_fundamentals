@@ -45,6 +45,16 @@ public class Java_Operators {
             System.out.println("both a & b are less than 20");
         }
         // now your turn :)
+        boolean bool1 = true;
+        boolean bool2 = true;
+        boolean bool3 = false;
 
+        // Logical AND
+        bool1 & bool2
+
+        // Logical OR
+
+
+        // Logical NOT
     }
 }
