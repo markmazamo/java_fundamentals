@@ -1,4 +1,4 @@
-package Java_Operators;
+package labs_examples.fundamentals.labs.Java_Operators;
 
 public class Java_Operators {
     public static void main(String[] args) {
@@ -45,16 +45,20 @@ public class Java_Operators {
             System.out.println("both a & b are less than 20");
         }
         // now your turn :)
-        boolean bool1 = true;
-        boolean bool2 = true;
-        boolean bool3 = false;
 
         // Logical AND
-        bool1 & bool2
+        if ((a < 20) & (b < 20)){
+            System.out.println("both a & b are less than 20");
+        }
 
         // Logical OR
-
+        if (a < 20 | b < 20){
+            System.out.println("either a or b is less than 20");
+        }
 
         // Logical NOT
+        if (a < 20){
+            System.out.println("neither a or b is less than 20");
+        }
     }
 }

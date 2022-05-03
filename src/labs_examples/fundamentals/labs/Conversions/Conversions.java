@@ -14,17 +14,17 @@ public class Conversions {
         System.out.println(small);
 
         // please demonstrate casting a double to a float below - I was expecting a result of 12345.1234567
-        double crazybig = 12345.1234512345;
-        float notsobig = (float) crazybig;
-        System.out.println(notsobig);
+        double crazyBig = 12345.1234512345;
+        float notSoBig = (float) crazyBig;
+        System.out.println(notSoBig);
 
         // please demonstrate casting a double with decimal values to a short
-        double superbig = 12345.1234512345;
-        short supersmall = (short) superbig;
-        System.out.println(supersmall);
+        double superBig = 12345.1234512345;
+        short superSmall = (short) superBig;
+        System.out.println(superSmall);
 
         // now print out the short value - what happened to the decimals?  Decimals were dropped.
-        System.out.println(supersmall);
+        System.out.println(superSmall);
 
     }
 
