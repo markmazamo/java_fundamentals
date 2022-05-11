@@ -10,7 +10,7 @@ public class Loops {
         }
         // please use a while loop to print out every 3rd number between 0 and 100 below
         int num = 3;
-        while(num <101){
+        while(num < 101){
             System.out.println("number is " + num);
             num +=3;
         }
