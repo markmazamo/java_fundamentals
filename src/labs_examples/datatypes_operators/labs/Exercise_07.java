@@ -16,7 +16,7 @@ public class Exercise_07 {
 
     public static void main(String[] args) {
 
-        // create scanner
+        // create scanner52
         Scanner scanner = new Scanner(System.in);
         // prompt user
         System.out.print("Enter a number in days between 1 and 1,000,000: ");

@@ -24,6 +24,10 @@ public class Exercise_01 {
         int number = scanner.nextInt();
 
         // write completed code here
-
+        int mod = number % 2;
+        if (mod > 0) {
+            System.out.println("Your number is odd");
+        }else
+            System.out.println("Your number is even");
     }
 }
