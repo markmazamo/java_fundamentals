@@ -18,6 +18,9 @@ public class Exercise_01 {
 
         // write code here
         int num = 10;
+
+        Integer intNum = 11;
+
         double large = 10.25;
         float big = 10.25f;
         char letter = 'a';
