@@ -4,7 +4,7 @@ public class if_statements {
     public static void main(String[] args) {
         // please write and run at least 3 unique if statements below
         int i = 10;
-        if (i < 20){
+        if (i < 20) {
             System.out.println("i is less than 20!");
         }
         // please write and run at least 2 unique if/else-if/else ladders below
