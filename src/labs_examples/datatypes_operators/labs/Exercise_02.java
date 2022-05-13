@@ -25,7 +25,7 @@ public class Exercise_02 {
 
         // write code here
         int num = 10;
-        double large = (int) num;
+        double large = num;
         System.out.println("large = " + large);
 
         double d = 10.5;
