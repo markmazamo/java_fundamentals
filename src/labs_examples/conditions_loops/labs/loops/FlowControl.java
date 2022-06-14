@@ -11,5 +11,12 @@ public class FlowControl {
         }
 
         // please demonstrate the use of the "break" keyword below in a do-while loop
+        for(int x = 0; x < 10; x++) {
+            if(x == 3 || x == 7) {
+                // break will break out of the loop above when x hits 3
+                break;
+            }
+            System.out.println("x is " + x);
+        }
     }
 }
