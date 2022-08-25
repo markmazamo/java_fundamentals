@@ -18,15 +18,15 @@ package labs_examples.arrays.labs;
 public class Exercise_03 {
 
     public static void main(String[] args) {
-        int[][] mult = new int[5][5];
-        int value = 0;
-        for (int i = 0; i < mult.length; i++) {
-            for (int j = 0; j < mult[i].length; j++) {
-                value +=3;
-                mult[i][j] = value;
-                System.out.print(value + " ");
+        int[][] mult = new int[5][5];                       // establish a new array called "mult" that is 5 arrays (rows) of 5 values (columns)
+        int value = 0;                                      // create a counter to populate the values of the arrays
+        for (int i = 0; i < mult.length; i++) {             // initial loop index of i
+            for (int j = 0; j < mult[i].length; j++) {      // secondary loop of index j
+                value +=3;                                  // increment counter "value" by 3 each iteration of the loop
+                mult[i][j] = value;                         // populate the value of the array at index [i][j]
+                System.out.print(value + " ");              // print the value of the array at index [i][j]
             }
-            System.out.println();
+            System.out.println();                           //  start a new print line for the next array
         }
 
 
